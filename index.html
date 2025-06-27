@@ -1,136 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="title" content="Jai Amar Foundation – Empowering Lives in India">
-  <meta name="description" content="Jai Amar Foundation (JAF) is a multi-sector platform transforming lives across education, health, construction, finance, NGO and agriculture in India.">
-  <meta name="keywords" content="Jai Amar Foundation, JAF, Education, JCB Tender, Civil Works, Health Projects, NGO, Agro, Business, Jharkhand, Jai Amar Kumar">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jai Amar Foundation (JAF) – Empowering Lives. Transforming Futures. A multi-sector initiative focused on education, health, finance, construction, NGO and agro services.">
+  <meta name="keywords" content="Jai Amar Foundation, JAF, NGO, Education, Health, Finance, JCB Works, Agriculture, Construction, Jharkhand, Hazaribagh">
   <meta name="author" content="Jai Amar Kumar">
+  <meta name="robots" content="index, follow">
   <meta property="og:title" content="Jai Amar Foundation">
   <meta property="og:description" content="Empowering Lives. Transforming Futures.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://jaiamarfoundation.github.io/">
-  <meta property="og:image" content="https://jaiamarfoundation.github.io/176a9c78-50d7-420a-b376-199924bb07e6.png">
-  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
-  <title>Jai Amar Foundation – Empowering Lives</title>
+  <meta property="og:url" content="https://jaiamarfoundation.in">
+  <meta property="og:image" content="logo.png">
+  <title>Jai Amar Foundation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5fff5; color: #222; }
-    header { text-align: center; background: #004d00; color: white; padding: 1.5rem; }
-    header img { height: 100px; border-radius: 50%; }
-    nav { text-align: center; margin: 1rem; }
-    nav a { margin: 0 10px; text-decoration: none; color: #004d00; font-weight: bold; }
-    section { padding: 2rem; max-width: 900px; margin: auto; }
-    .sector { display: flex; align-items: center; margin-bottom: 2rem; }
-    .sector img { width: 180px; height: auto; border-radius: 12px; margin-right: 1rem; }
-    footer { background: #004d00; color: white; text-align: center; padding: 1rem; }
-    .social a { margin: 0 10px; color: white; text-decoration: none; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4fff4;
+      color: #222;
+    }
+    header {
+      background-color: #004d00;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+      border-radius: 50%;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .banner {
+      text-align: center;
+      background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('banner.jpg');
+      background-size: cover;
+      padding: 3rem 1rem;
+    }
+    .banner h1 {
+      font-size: 2.5rem;
+      color: #004d00;
+    }
+    .banner p {
+      font-size: 1.2rem;
+    }
+    .actions button {
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      background-color: #004d00;
+      color: white;
+      cursor: pointer;
+    }
+    .sector {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .sector img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    footer {
+      background-color: #004d00;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .contact-box {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
   </style>
 </head>
 <body>
   <header>
     <img src="176a9c78-50d7-420a-b376-199924bb07e6.png" alt="JAF Logo">
-    <h1>JAI AMAR FOUNDATION</h1>
-    <p><em>Empowering Lives. Transforming Futures.</em></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#divisions">Divisions</a>
+      <a href="#contact">Contact</a>
+      <a href="#join">Join</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#sectors">Divisions</a>
-    <a href="#contact">Contact</a>
-    <a href="#join">Join</a>
-  </nav>
+  <section class="banner">
+    <h1>Empowering Lives. Transforming Futures.</h1>
+    <p>Welcome to Jai Amar Foundation – A multi-sector initiative driving positive change in India.</p>
+    <div class="actions">
+      <button onclick="location.href='#join'">Join Us</button>
+      <button onclick="location.href='#contact'">Contact for Tender</button>
+      <button onclick="location.href='#divisions'">Explore Divisions</button>
+    </div>
+  </section>
 
   <section id="about">
     <h2>Our Story & Vision</h2>
-    <p>Jai Amar Foundation (JAF) is a multi-sector initiative founded by <strong>Jai Amar Kumar</strong>, aimed at empowering communities, building infrastructure, and providing innovative solutions across various sectors including education, health, agriculture, and finance.</p>
-    <p>We envision a self-reliant and empowered India, bridging the development gap across rural and urban regions.</p>
-    <p><strong>Founder & CEO:</strong> Jai Amar Kumar<br>
-    <strong>Location:</strong> Hazaribagh, Jharkhand<br>
-    <strong>Email:</strong> jaiamarfoundation@gmail.com<br>
-    <strong>WhatsApp:</strong> <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">Click to Chat</a></p>
+    <p>Jai Amar Foundation (JAF) is founded by <strong>Jai Amar Kumar</strong> from Hazaribagh, Jharkhand. It is a visionary platform focused on creating sustainable change and empowering citizens across sectors—education, health, finance, construction, NGO and agriculture. We believe in entrepreneurship, opportunity creation, and inclusive development for a stronger nation.</p>
+    <img src="218766de-906c-4373-abe3-0c407d02d8b8 (1).png" alt="Founder Image" style="max-width:100%; border-radius:12px; margin-top:1rem;">
   </section>
 
-  <section id="sectors">
+  <section id="divisions">
     <h2>Our Divisions</h2>
-
     <div class="sector">
-      <img src="bcb2944a-349a-47dc-a3fc-cb68c313b2dc.png" alt="Education">
       <div>
         <h3>JAF Education</h3>
-        <p>Promoting accessible, modern, and inclusive education models to reach every corner of the nation.</p>
+        <img src="bcb2944a-349a-47dc-a3fc-cb68c313b2dc.png" alt="Education">
+        <p>Promoting literacy and empowering learners through innovative and accessible education models.</p>
       </div>
-    </div>
-
-    <div class="sector">
-      <img src="9a4836fc-4104-4651-9411-83319ab81e5f (1).png" alt="JCB and Civil Works">
       <div>
-        <h3>JAF Civil / JCB Works</h3>
-        <p>Partnering with government and private entities for infrastructure, tender work, and machinery deployment.</p>
+        <h3>JAF Civil/JCB Works</h3>
+        <img src="9a4836fc-4104-4651-9411-83319ab81e5f (1).png" alt="JCB Works">
+        <p>Handling government and private tenders for roads, schools, excavation and civil works projects.</p>
       </div>
-    </div>
-
-    <div class="sector">
       <div>
         <h3>JAF Health</h3>
-        <p>Organizing health camps, rural health drives, and awareness programs for community well-being.</p>
+        <p>Improving rural healthcare and awareness via medical camps and professional partnerships.</p>
       </div>
-    </div>
-
-    <div class="sector">
       <div>
         <h3>JAF Finance</h3>
-        <p>Financial literacy, micro-funding support, and digital banking education for financial empowerment.</p>
+        <p>Providing financial literacy, funding guidance and access to digital financial tools.</p>
       </div>
-    </div>
-
-    <div class="sector">
       <div>
         <h3>JAF NGO Works</h3>
-        <p>Uplifting underprivileged communities with focused programs, drives, and social support systems.</p>
+        <p>Organizing social drives, youth development programs, and support initiatives for the underprivileged.</p>
       </div>
-    </div>
-
-    <div class="sector">
       <div>
         <h3>JAF Agro</h3>
-        <p>Advancing agriculture with sustainable practices, agri-finance, and market linkages for farmers.</p>
+        <p>Helping farmers via modern equipment, agri-loans, market linkages, and sustainable farming methods.</p>
       </div>
     </div>
-  </section>
-
-  <section>
-    <h2>Director's Note</h2>
-    <img src="218766de-906c-4373-abe3-0c407d02d8b8 (1).png" alt="Director" style="width: 100%; max-width: 400px; border-radius: 12px;" />
   </section>
 
   <section id="contact">
     <h2>Contact & Tenders</h2>
-    <p>📩 Email: <a href="mailto:jaiamarfoundation@gmail.com">jaiamarfoundation@gmail.com</a></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">Click to Chat</a></p>
-    <p>🏢 Location: Hazaribagh, Jharkhand</p>
-    <p><strong>Contact us for:</strong> Tenders, Civil Works, Job Applications, or Collaboration Proposals</p>
+    <div class="contact-box">
+      <p><strong>📍 Address:</strong> Hazaribagh, Jharkhand</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:jaiamarfoundation@gmail.com">jaiamarfoundation@gmail.com</a></p>
+      <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">Click to Chat</a></p>
+      <p><strong>🔨 Tenders:</strong> Contact for JCB and Construction Work Tenders</p>
+      <p><strong>📌 Job & Partnership Queries:</strong> Reach out via WhatsApp or Email</p>
+    </div>
   </section>
 
   <section id="join">
-    <h2>Join Us</h2>
-    <p>We welcome volunteers, partners, and job seekers interested in building a better India with JAF.</p>
+    <h2>Join Our Vision</h2>
+    <p>Become a part of our growing foundation as a volunteer, partner, vendor, or contractor.</p>
     <form action="mailto:jaiamarfoundation@gmail.com" method="POST" enctype="text/plain">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Why do you want to join?" required></textarea>
+      <textarea name="message" rows="4" placeholder="Why do you want to join us?" required></textarea>
       <button type="submit">Submit</button>
     </form>
   </section>
 
   <footer>
-    <p>© 2025 Jai Amar Foundation. All rights reserved.</p>
-    <div class="social">
-      <a href="https://www.instagram.com/jaiamarfoundation">Instagram</a> |
-      <a href="https://www.linkedin.com/in/jai-amar-foundation-053009221">LinkedIn</a> |
-      <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">WhatsApp</a> |
-      <a href="https://youtube.com/@jaiamarfoundation?si=Iz02BCjeyh3VnMMH">YouTube</a>
-    </div>
+    <p>Follow Us: 
+      <a href="https://instagram.com/jaiamarfoundation" target="_blank">Instagram</a> | 
+      <a href="https://linkedin.com/in/jai-amar-foundation-053009221" target="_blank">LinkedIn</a> | 
+      <a href="https://wa.me/message/S3Y4Z6BTFKVSN1" target="_blank">WhatsApp</a> | 
+      <a href="https://youtube.com/@jaiamarfoundation?si=Iz02BCjeyh3VnMMH" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2025 Jai Amar Foundation. All rights reserved.</p>
   </footer>
 </body>
 </html>
