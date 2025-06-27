@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,79 +9,85 @@
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background-color: #f0fff4;
+      background-color: #f5f5f5;
       color: #222;
     }
     header {
       background-color: #004d00;
       color: white;
       padding: 1rem;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     header img {
-      height: 100px;
-      border-radius: 50%;
+      height: 60px;
     }
     header h1 {
-      font-size: 2rem;
-      margin: 0.5rem 0;
-    }
-    .tagline {
-      font-style: italic;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-    }
-    nav {
-      margin-top: 1rem;
+      font-size: 1.8rem;
+      margin: 0;
     }
     nav a {
-      margin: 0 1rem;
       color: white;
+      margin-left: 1rem;
       text-decoration: none;
       font-weight: bold;
     }
     section {
       padding: 2rem;
     }
-    .division {
+    .branch {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
     }
-    .division-card {
+    .branch div {
       background: white;
+      padding: 1rem;
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      padding: 1rem;
     }
-    .division-card img {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+    input, textarea {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
       border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #004d00;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
     }
     footer {
       background-color: #004d00;
       color: white;
-      text-align: center;
       padding: 1rem;
+      text-align: center;
     }
-    .contact-links a {
-      display: inline-block;
-      margin: 0.5rem;
-      color: white;
+    .branch img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="logo2.png" alt="JAF Logo" />
+    <img src="176a9c78-50d7-420a-b376-199924bb07e6.png" alt="JAI AMAR FOUNDATION Logo">
     <h1>JAI AMAR FOUNDATION</h1>
-    <div class="tagline">Empowering Lives. Transforming Futures.</div>
     <nav>
       <a href="#about">About</a>
-      <a href="#divisions">Divisions</a>
+      <a href="#branches">Branches</a>
       <a href="#contact">Contact</a>
       <a href="#join">Join Us</a>
     </nav>
@@ -90,75 +95,58 @@
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Jai Amar Foundation (JAF) is a multi-sector initiative founded by Jai Amar Kumar, driven by a purpose to empower communities, fuel economic growth, and build a better India. Our mission is to transform lives by engaging in impactful work across education, health, infrastructure, finance, and social service.</p>
-    <p>We believe in creating real change—through entrepreneurship, opportunity creation, community development, and inclusive service.</p>
-    <p><strong>Vision:</strong> To be a catalyst of transformation by bridging the gap between development and delivery across sectors.</p>
-    <p><strong>Founder & CEO:</strong> Jai Amar Kumar</p>
-    <p><strong>Location:</strong> Hazaribagh, Jharkhand</p>
-    <p><strong>Email:</strong> jaiamarfoundation@gmail.com</p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">Message Us</a></p>
+    <p>JAI AMAR FOUNDATION (JAF) is a visionary organization founded by Jai Amar Kumar from Hazaribagh, Jharkhand. We aim to create impactful human resources by developing multiple initiatives under one powerful umbrella. Our mission includes education, construction, health, finance, and more.</p>
   </section>
 
-  <section id="divisions">
-    <h2>Our Divisions</h2>
-    <div class="division">
-      <div class="division-card">
-        <img src="education.png" alt="Education" />
+  <section id="branches">
+    <h2>Our Branches</h2>
+    <div class="branch">
+      <div>
+        <img src="bcb2944a-349a-47dc-a3fc-cb68c313b2dc.png" alt="Education">
         <h3>JAF Education</h3>
-        <p>Bringing quality education to every corner—from rural students to digital learners. JAF Education promotes literacy, skill-building, and empowerment through innovative teaching models.</p>
+        <p>Empowering minds through quality and accessible education initiatives and institutions.</p>
       </div>
-      <div class="division-card">
-        <img src="jcbworks.png" alt="JCB Work" />
-        <h3>JAF Civil / JCB Works</h3>
-        <p>We build the future—one project at a time. JAF Civil handles government & private tenders involving roads, schools, housing, excavation, and more.</p>
+      <div>
+        <img src="9a4836fc-4104-4651-9411-83319ab81e5f (1).png" alt="JCB Work">
+        <h3>JAF Construction</h3>
+        <p>Building infrastructure for the future—homes, schools, hospitals, and community spaces.</p>
       </div>
-      <div class="division-card">
+      <div>
         <h3>JAF Health</h3>
-        <p>Focused on grassroots health awareness, rural camps, and community wellness through collaborations with medical professionals.</p>
+        <p>Bringing better healthcare and wellness awareness to rural and urban populations.</p>
       </div>
-      <div class="division-card">
+      <div>
         <h3>JAF Finance</h3>
-        <p>Empowering individuals with financial literacy, small business funding support, and digital banking education.</p>
-      </div>
-      <div class="division-card">
-        <h3>JAF NGO Works</h3>
-        <p>Through social drives, youth campaigns, and assistance programs, we stand beside those who need a push forward.</p>
-      </div>
-      <div class="division-card">
-        <h3>JAF Agro</h3>
-        <p>Working with farmers, promoting sustainable farming, agri-finance, modern equipment, and market linkages.</p>
+        <p>Providing financial literacy, support, and microfinance solutions to empower individuals.</p>
       </div>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contact Us / Tenders</h2>
-    <p><strong>Email:</strong> <a href="mailto:jaiamarfoundation@gmail.com">jaiamarfoundation@gmail.com</a></p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/message/S3Y4Z6BTFKVSN1">Click here to message</a></p>
-    <p><strong>Location:</strong> Hazaribagh, Jharkhand</p>
-    <p><strong>Now accepting tenders for JCB & Construction Works.</strong></p>
+    <h2>Contact Us</h2>
+    <p><strong>Name:</strong> Jai Amar Kumar</p>
+    <p><strong>Location:</strong> Hazaribagh, Jharkhand, India</p>
+    <p><strong>Phone:</strong> 8987597083</p>
   </section>
 
   <section id="join">
     <h2>Join Us</h2>
-    <p>Interested in contributing to nation-building? Join as Volunteer | Partner | Vendor | Tender Contractor</p>
-    <form>
-      <input type="text" placeholder="Full Name" required />
-      <input type="email" placeholder="Email Address" required />
-      <input type="tel" placeholder="Phone Number" required />
-      <textarea rows="4" placeholder="Why do you want to join us?" required></textarea>
+    <p>We welcome individuals who are passionate about making a positive change in society. Fill out the form below to connect with us.</p>
+    <form action="mailto:jaiamarfoundation@gmail.com" method="POST" enctype="text/plain" onsubmit="alert('Thank you for joining us! We will get in touch with you soon.');">
+      <input type="text" name="Full Name" placeholder="Full Name" required />
+      <input type="email" name="Email" placeholder="Email Address" required />
+      <input type="tel" name="Phone" placeholder="Phone Number" required />
+      <textarea name="Message" placeholder="Why do you want to join us?" rows="4" required></textarea>
       <button type="submit">Submit</button>
     </form>
+    <p style="margin-top: 1rem; color: #004d00; font-weight: bold;">
+      For any urgent queries, feel free to contact Jai Amar Kumar at 
+      <a href="mailto:jaiamarfoundation@gmail.com">jaiamarfoundation@gmail.com</a> or call 8987597083.
+    </p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Jai Amar Foundation. All rights reserved.</p>
-    <div class="contact-links">
-      <a href="https://www.instagram.com/jaiamarfoundation" target="_blank">Instagram</a> |
-      <a href="https://www.linkedin.com/in/jai-amar-foundation-053009221" target="_blank">LinkedIn</a> |
-      <a href="https://wa.me/message/S3Y4Z6BTFKVSN1" target="_blank">WhatsApp</a>
-    </div>
+    <p>&copy; 2025 JAI AMAR FOUNDATION. All Rights Reserved.</p>
   </footer>
-
 </body>
 </html>
